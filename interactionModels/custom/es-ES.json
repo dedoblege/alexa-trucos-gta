@@ -1,0 +1,251 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "trucos g t a",
+      "intents": [
+        {
+          "name": "RecipeIntent",
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS"
+            }
+          ],
+          "samples": [
+            "dime truco para {Item}",
+            "dime el truco para {Item}",
+            "cómo puedo tener {Item}",
+            "cómo puedo conseguir {Item}",
+            "cómo puedo hacer {Item}",
+            "cómo hacer {Item}",
+            "cómo tener {Item}",
+            "cómo conseguir {Item}",
+            "dime chit para {Item}",
+            "dime chit shit para {Item}",
+            "dime cómo hacer para {Item}",
+            "dime cómo hacer {Item}",
+            "dime cómo conseguir {Item}",
+            "truco para {Item}",
+            "truco {Item}",
+            "truco para hacer {Item}",
+            "truco para tener {Item}",
+            "truco para conseguir {Item}",
+            "consígueme un {Item}",
+            "conseguir {Item}",
+            "conseguir un {Item}",
+            "chit para {Item}",
+            "chit shit para {Item}"
+          ]
+        },
+        {
+          "name": "AMAZON.RepeatIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "name": {
+                "value": "Avión de acrobacias"
+              }
+            },
+            {
+              "name": {
+                "value": "Avión fumigador"
+              }
+            },
+            {
+              "name": {
+                "value": "Bicicleta"
+              }
+            },
+            {
+              "name": {
+                "value": "BMX"
+              }
+            },
+            {
+              "name": {
+                "value": "Camión de la basura"
+              }
+            },
+            {
+              "name": {
+                "value": "Carrito de golf"
+              }
+            },
+            {
+              "name": {
+                "value": "Coche a prueba de balas"
+              }
+            },
+            {
+              "name": {
+                "value": "Coche de carreras"
+              }
+            },
+            {
+              "name": {
+                "value": "Coche deportivo"
+              }
+            },
+            {
+              "name": {
+                "value": "Helicóptero"
+              }
+            },
+            {
+              "name": {
+                "value": "Hidroavión"
+              }
+            },
+            {
+              "name": {
+                "value": "Limusina"
+              }
+            },
+            {
+              "name": {
+                "value": "Moto"
+              }
+            },
+            {
+              "name": {
+                "value": "Moto de motocross"
+              }
+            },
+            {
+              "name": {
+                "value": "Paracaídas"
+              }
+            },
+            {
+              "name": {
+                "value": "Submarino"
+              }
+            },
+            {
+              "name": {
+                "value": "Salud al máximo"
+              }
+            },
+            {
+              "name": {
+                "value": "Invencibilidad"
+              }
+            },
+            {
+              "name": {
+                "value": "Invencible"
+              }
+            },
+            {
+              "name": {
+                "value": "Balas de fuego"
+              }
+            },
+            {
+              "name": {
+                "value": "Balas explosivas"
+              }
+            },
+            {
+              "name": {
+                "value": "Desbloquear todas las armas"
+              }
+            },
+            {
+              "name": {
+                "value": "Modo borracho"
+              }
+            },
+            {
+              "name": {
+                "value": "Correr rápido"
+              }
+            },
+            {
+              "name": {
+                "value": "Nadar rápido"
+              }
+            },
+            {
+              "name": {
+                "value": "Puñetazos explosivos"
+              }
+            },
+            {
+              "name": {
+                "value": "Reducir nivel de búsqueda"
+              }
+            },
+            {
+              "name": {
+                "value": "Aumentar nivel de búsqueda"
+              }
+            },
+            {
+              "name": {
+                "value": "Aumentar nivel de especial"
+              }
+            },
+            {
+              "name": {
+                "value": "Apuntado a cámara lenta"
+              }
+            },
+            {
+              "name": {
+                "value": "Coches deslizables"
+              }
+            },
+            {
+              "name": {
+                "value": "Cámara lenta"
+              }
+            },
+            {
+              "name": {
+                "value": "Modificar el clima"
+              }
+            },
+            {
+              "name": {
+                "value": "Super salto"
+              }
+            },
+            {
+              "name": {
+                "value": "Caída libre"
+              }
+            },
+            {
+              "name": {
+                "value": "Gravedad lunar"
+              }
+            }
+          ],
+          "name": "LIST_OF_ITEMS"
+        }
+      ]
+    }
+  },
+  "version": "3"
+}
