@@ -62,177 +62,208 @@
         {
           "values": [
             {
+              "id": "avion_acrobacias",
               "name": {
                 "value": "avión de acrobacias",
                 "synonyms": ["mallard stunt plane", "stunt plane"]
               }
             },
             {
+              "id": "avion_fumigador",
               "name": {
                 "value": "avión fumigador",
                 "synonyms": ["duster", "duster plane"]
               }
             },
             {
+              "id": "bicicleta",
               "name": {
                 "value": "bicicleta",
                 "synonyms": ["bmx", "bici"]
               }
             },
             {
+              "id": "camion_basura",
               "name": {
                 "value": "camión de la basura",
                 "synonyms": ["trashmaster"]
               }
             },
             {
+              "id": "carrito_golf",
               "name": {
                 "value": "carrito de golf",
                 "synonyms": ["caddy"]
               }
             },
             {
+              "id": "coche_carrera",
               "name": {
                 "value": "coche de carreras",
                 "synonyms": ["rapid gt"]
               }
             },
             {
+              "id": "coche_deportivo",
               "name": {
                 "value": "coche deportivo",
                 "synonyms": ["deportivo", "plister comet"]
               }
             },
             {
+              "id": "helicoptero",
               "name": {
                 "value": "helicóptero",
                 "synonyms": ["helicóptero de combate", "buzzard"]
               }
             },
             {
+              "id": "limusina",
               "name": {
                 "value": "limusina"
               }
             },
             {
+              "id": "motocicleta_motocross",
               "name": {
                 "value": "motocicleta de motocross",
                 "synonyms": ["moto de motocross", "motocross", "sánchez"]
               }
             },
             {
+              "id": "motocicleta",
               "name": {
                 "value": "motocicleta",
                 "synonyms": ["moto", "pcj-600"]
               }
             },
             {
+              "id": "paracaidas",
               "name": {
                 "value": "paracaídas"
               }
             },
             {
+              "id": "salud_maximo",
               "name": {
                 "value": "salud al máximo",
                 "synonyms": ["salud al tope", "salud a tope"]
               }
             },
             {
+              "id": "invencibilidad",
               "name": {
                 "value": "invencibilidad",
                 "synonyms": ["invencible"]
               }
             },
             {
+              "id": "balas_fuego",
               "name": {
                 "value": "balas de fuego"
               }
             },
             {
+              "id": "balas_explosivas",
               "name": {
                 "value": "balas explosivas"
               }
             },
             {
+              "id": "desbloquear_armas",
               "name": {
                 "value": "desbloquear todas las armas",
                 "synonyms": ["desbloquear armas"]
               }
             },
             {
+              "id": "borracho",
               "name": {
                 "value": "modo borracho",
                 "synonyms": ["borracho"]
               }
             },
             {
+              "id": "correr_rapido",
               "name": {
                 "value": "correr rápido",
                 "synonyms": ["correr a tope"]
               }
             },
             {
+              "id": "nadar_rapido",
               "name": {
                 "value": "nadar rápido",
                 "synonyms": ["nadar a tope"]
               }
             },
             {
+              "id": "puñetazos_explosivos",
               "name": {
                 "value": "puñetazos explosivos"
               }
             },
             {
+              "id": "reducir_nivel_busqueda",
               "name": {
                 "value": "reducir el nivel de búsqueda",
                 "synonyms": ["reducir nivel de búsqueda"]
               }
             },
             {
+              "id": "aumentar_nivel_busqueda",
               "name": {
                 "value": "aumentar el nivel de búsqueda",
                 "synonyms": ["aumentar nivel de búsqueda"]
               }
             },
             {
+              "id": "aumentar_nivel_especial",
               "name": {
                 "value": "aumentar el nivel de especial",
-                "synonyms": ["aumentar nivel de búsqueda"]
+                "synonyms": ["aumentar nivel especial"]
               }
             },
             {
+              "id": "apuntado_camara",
               "name": {
                 "value": "apuntado a cámara lenta",
                 "synonyms": ["apuntar a cámara lenta"]
               }
             },
             {
+              "id": "coches_deslizables",
               "name": {
                 "value": "coches deslizables"
               }
             },
             {
+              "id": "camara_lenta",
               "name": {
                 "value": "cámara lenta"
               }
             },
             {
+              "id": "modificar_clima",
               "name": {
                 "value": "modificar el clima",
                 "synonyms": ["modificar clima"]
               }
             },
             {
+              "id": "super_salto",
               "name": {
                 "value": "super salto"
               }
             },
             {
+              "id": "caida_libre",
               "name": {
                 "value": "caída libre"
               }
             },
             {
+              "id": "gravedad_lunar",
               "name": {
                 "value": "gravedad lunar"
               }
@@ -243,5 +274,5 @@
       ]
     }
   },
-  "version": "5"
+  "version": "6"
 }
