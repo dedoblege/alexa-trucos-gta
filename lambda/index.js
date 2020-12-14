@@ -13,7 +13,7 @@ const LaunchRequestHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = answers.WELCOME;
+    const speakOutput = answers.WELCOME_MESSAGE;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
@@ -30,8 +30,6 @@ const CheatIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const requestAttributes = handlerInput.attributesManager.getRequestAttributes();
-
     const itemSlot = handlerInput.requestEnvelope.request.intent.slots.Item;
     let itemName;
     if (itemSlot && itemSlot.value) {
@@ -40,14 +38,28 @@ const CheatIntentHandler = {
 
     const myCheats = answers.CHEATS;
     const cheat = myCheats[itemName];
-
     let speakOutput = "";
 
-    speakOutput = cheat;
+    if (cheat) {
+      speakOutput = cheat;
+
+      return handlerInput.responseBuilder
+        .speak(speakOutput)
+        .reprompt(speakOutput)
+        .getResponse();
+    }
+
+    const repromptSpeech = answers.CHEAT_NOT_FOUND_REPROMPT;
+    if (itemName) {
+      speakOutput += answers.CHEAT_NOT_FOUND_WITH_ITEM_NAME + itemName;
+    } else {
+      speakOutput += answers.CHEAT_NOT_FOUND_WITHOUT_ITEM_NAME;
+    }
+    speakOutput += repromptSpeech;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
-      .reprompt(speakOutput)
+      .reprompt(repromptSpeech)
       .getResponse();
   },
 };
@@ -193,10 +205,9 @@ exports.handler = Alexa.SkillBuilders.custom()
 const answers = {
   CHEATS: cheats.CHEATS_ES_ES,
   SKILL_NAME: "Trucos G.T.A",
-  WELCOME: "Bienvenido a trucos G.T.A.; Qué truco quieres saber?",
-  WELCOME_MESSAGE:
-    "Bienvenido a %s. Puedes pedirme un truco para el G.T.A. como por ejemplo, cómo conseguir un %s? ... , ahora qué truco quieres que te diga?",
-  WELCOME_REPROMPT: "Para más trucos, por favor pide ayuda.",
+  WELCOME_MESSAGE: "Bienvenido a trucos G.T.A.; Qué truco quieres saber?",
+  WELCOME_REPROMPT:
+    "Puedes pedirme trucos, como por ejemplo, dime truco para %s.",
   DISPLAY_CARD_TITLE: "%s  - Truco para %s.",
   HELP_MESSAGE:
     "Puedes pedirme trucos como, dime el truco para  %s, o, puedes decir salir...Ahora cómo puedo ayudarte?",
@@ -205,8 +216,8 @@ const answers = {
   STOP_MESSAGE: "Hasta pronto!",
   CHEAT_REPEAT_MESSAGE: "Intenta decir repite.",
   CHEAT_NOT_FOUND_WITH_ITEM_NAME:
-    "Perdona, ahora mismo no conozco el truco para %s. ",
+    "Perdona, ahora mismo no conozco el truco para ",
   CHEAT_NOT_FOUND_WITHOUT_ITEM_NAME:
     "Perdona, ahora mismo no conozco ese truco. ",
-  CHEAT_NOT_FOUND_REPROMPT: "Con qué más puedo ayudarte?",
+  CHEAT_NOT_FOUND_REPROMPT: "...Con qué más puedo ayudarte?",
 };
