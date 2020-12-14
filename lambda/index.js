@@ -36,13 +36,20 @@ const CheatIntentHandler = {
     if (itemSlot && itemSlot.value) {
       itemName = itemSlot.value.toLowerCase();
     }
+    let itemId = getSlotId(itemSlot);
 
     const myCheats = constants.CHEATS;
     const cheat = myCheats[itemName];
+    const cheatId = myCheats[itemId];
+
     let speakOutput = "";
 
-    if (cheat) {
-      speakOutput = cheat;
+    if (cheat || cheatId) {
+      speakOutput = cheat
+        ? cheat
+        : cheatId
+        ? cheatId
+        : "Sorry, I don't know about that. Please try again.";
 
       return handlerInput.responseBuilder
         .speak(speakOutput)
@@ -208,3 +215,18 @@ const constants = {
   CHEATS: cheats.CHEATS_ES_ES,
   ANSWERS: answers.ANSWERS_ES_ES,
 };
+
+function getSlotId(slot) {
+  let id;
+  let resolution =
+    slot.resolutions &&
+    slot.resolutions.resolutionsPerAuthority &&
+    slot.resolutions.resolutionsPerAuthority.length > 0
+      ? slot.resolutions.resolutionsPerAuthority[0]
+      : null;
+  if (resolution && resolution.status.code === "ER_SUCCESS_MATCH") {
+    let resolutionValue = resolution.values[0].value;
+    id = resolutionValue.id ? resolutionValue.id : resolutionValue.name;
+  }
+  return id;
+}
