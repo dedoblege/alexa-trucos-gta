@@ -16,5 +16,15 @@ module.exports = {
     CHEAT_NOT_FOUND_WITHOUT_ITEM_NAME:
       "Perdona, ahora mismo no conozco ese truco. ",
     CHEAT_NOT_FOUND_REPROMPT: "...Con qué más puedo ayudarte?",
+    ALEXA_HELP:
+      "Puedes pedirme trucos de G.T.A! Qué truco quieres que te diga?",
+    ALEXA_GOODBYE: "Hasta pronto!",
+    ALEXA_FALLBACK:
+      "Perdona, no sé que me estás pidiendo. Vuelve a intentarlo, por favor.",
+  },
+  ANSWERS_EN_US: {
+    ALEXA_HELP: "You can say hello to me! How can I help?",
+    ALEXA_GOODBYE: "Goodbye!",
+    ALEXA_FALLBACK: "Sorry, I don't know about that. Please try again.",
   },
 };

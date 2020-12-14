@@ -49,7 +49,7 @@ const CheatIntentHandler = {
         ? cheat
         : cheatId
         ? cheatId
-        : "Sorry, I don't know about that. Please try again.";
+        : constants.ANSWERS.ALEXA_FALLBACK;
 
       return handlerInput.responseBuilder
         .speak(speakOutput)
@@ -81,7 +81,7 @@ const HelpIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = "You can say hello to me! How can I help?";
+    const speakOutput = constants.ANSWERS.ALEXA_HELP;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
@@ -101,7 +101,7 @@ const CancelAndStopIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = "Goodbye!";
+    const speakOutput = constants.ANSWERS.ALEXA_GOODBYE;
 
     return handlerInput.responseBuilder.speak(speakOutput).getResponse();
   },
@@ -120,7 +120,7 @@ const FallbackIntentHandler = {
     );
   },
   handle(handlerInput) {
-    const speakOutput = "Sorry, I don't know about that. Please try again.";
+    const speakOutput = constants.ANSWERS.ALEXA_FALLBACK;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
