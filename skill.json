@@ -32,15 +32,15 @@
       "isAvailableWorldwide": true,
       "locales": {
         "es-ES": {
-          "description": "Sample Full Description",
+          "description": "Skill para obtener trucos para el juego GTA V versión PS4",
           "examplePhrases": [
-            "Alexa abre hola mundo",
-            "hola",
+            "Alexa abre trucos G.T.A.",
+            "trucos G.T.A.",
             "ayuda"
           ],
           "keywords": [],
           "name": "Trucos GTA",
-          "summary": "Sample Short Description"
+          "summary": "Skill para obtener trucos para el juego GTA V versión PS4"
         }
       },
       "testingInstructions": "Sample Testing Instructions."
