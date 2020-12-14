@@ -7,7 +7,7 @@ Truco: Derecha, Izquierda, R1, R1, R1, Izquierda, Triángulo, Triángulo, X, Cí
 Código desde el móvil: 1-999-359-77729
 
 Bicicleta (BMX)
-Truco: Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, Cuadrado, Círculo, Triángulo, R1, R2
+Izquierda, Izquierda, Derecha, Derecha, Izquierda, Derecha, Cuadrado, Círculo, Triángulo, R1, R2Truco: 
 Código desde el móvil: 1-999-226-348
 
 Camión de la basura (Trashmaster)
@@ -104,7 +104,7 @@ Aumentar nivel de especial
 Truco: X, X, cuadrado, R1, L1, X, Derecha, Izquierda, X
 
 Apuntado a cámara lenta
-Truco: cuadrado, L2, R1, Triángulo, Izquierda, cuadrado, L2, Derecha, X (Introducir cuatro veces, la quinta desactiva el truco)
+Truco: Cuadrado, L2, R1, Triángulo, Izquierda, cuadrado, L2, Derecha, X (Introducir cuatro veces, la quinta desactiva el truco)
 
 Coches deslizables
 Truco: Triángulo R1, R1, Izquierda, R1, L1, R2, L1
