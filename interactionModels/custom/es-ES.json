@@ -8,10 +8,24 @@
           "slots": [
             {
               "name": "Item",
-              "type": "LIST_OF_ITEMS"
+              "type": "LIST_OF_ITEMS",
+              "samples": [
+                "quiero tener el {Item}",
+                "quiero tener la {Item}",
+                "quiero tener {Item}",
+                "quiero conseguir la {Item}",
+                "quiero conseguir el {Item}",
+                "quiero conseguir el truco de {Item}",
+                "me interesa el {Item}",
+                "me interesa el truco {Item}",
+                "quiero conseguir {Item}",
+                "el truco que quiero es {Item}"
+              ]
             }
           ],
           "samples": [
+            "trucos disponibles",
+            "qué trucos hay",
             "dime truco para {Item}",
             "dime el truco para {Item}",
             "cómo puedo tener {Item}",
@@ -65,56 +79,77 @@
               "id": "avion_acrobacias",
               "name": {
                 "value": "avión de acrobacias",
-                "synonyms": ["mallard stunt plane", "stunt plane"]
+                "synonyms": [
+                  "mallard stunt plane",
+                  "stunt plane"
+                ]
               }
             },
             {
               "id": "avion_fumigador",
               "name": {
                 "value": "avión fumigador",
-                "synonyms": ["duster", "duster plane"]
+                "synonyms": [
+                  "duster",
+                  "duster plane"
+                ]
               }
             },
             {
               "id": "bicicleta",
               "name": {
                 "value": "bicicleta",
-                "synonyms": ["bmx", "bici"]
+                "synonyms": [
+                  "bmx",
+                  "bici"
+                ]
               }
             },
             {
               "id": "camion_basura",
               "name": {
                 "value": "camión de la basura",
-                "synonyms": ["trashmaster"]
+                "synonyms": [
+                  "trashmaster"
+                ]
               }
             },
             {
               "id": "carrito_golf",
               "name": {
                 "value": "carrito de golf",
-                "synonyms": ["caddy"]
+                "synonyms": [
+                  "caddy"
+                ]
               }
             },
             {
               "id": "coche_carrera",
               "name": {
                 "value": "coche de carreras",
-                "synonyms": ["rapid gt"]
+                "synonyms": [
+                  "rapid gt"
+                ]
               }
             },
             {
               "id": "coche_deportivo",
               "name": {
                 "value": "coche deportivo",
-                "synonyms": ["deportivo", "plister comet"]
+                "synonyms": [
+                  "deportivo",
+                  "plister comet"
+                ]
               }
             },
             {
               "id": "helicoptero",
               "name": {
                 "value": "helicóptero",
-                "synonyms": ["helicóptero de combate", "buzzard"]
+                "synonyms": [
+                  "helicóptero de combate",
+                  "buzzard"
+                ]
               }
             },
             {
@@ -127,14 +162,21 @@
               "id": "motocicleta_motocross",
               "name": {
                 "value": "motocicleta de motocross",
-                "synonyms": ["moto de motocross", "motocross", "sánchez"]
+                "synonyms": [
+                  "moto de motocross",
+                  "motocross",
+                  "sánchez"
+                ]
               }
             },
             {
               "id": "motocicleta",
               "name": {
                 "value": "motocicleta",
-                "synonyms": ["moto", "pcj-600"]
+                "synonyms": [
+                  "moto",
+                  "pcj-600"
+                ]
               }
             },
             {
@@ -147,14 +189,19 @@
               "id": "salud_maximo",
               "name": {
                 "value": "salud al máximo",
-                "synonyms": ["salud al tope", "salud a tope"]
+                "synonyms": [
+                  "salud al tope",
+                  "salud a tope"
+                ]
               }
             },
             {
               "id": "invencibilidad",
               "name": {
                 "value": "invencibilidad",
-                "synonyms": ["invencible"]
+                "synonyms": [
+                  "invencible"
+                ]
               }
             },
             {
@@ -173,28 +220,36 @@
               "id": "desbloquear_armas",
               "name": {
                 "value": "desbloquear todas las armas",
-                "synonyms": ["desbloquear armas"]
+                "synonyms": [
+                  "desbloquear armas"
+                ]
               }
             },
             {
               "id": "borracho",
               "name": {
                 "value": "modo borracho",
-                "synonyms": ["borracho"]
+                "synonyms": [
+                  "borracho"
+                ]
               }
             },
             {
               "id": "correr_rapido",
               "name": {
                 "value": "correr rápido",
-                "synonyms": ["correr a tope"]
+                "synonyms": [
+                  "correr a tope"
+                ]
               }
             },
             {
               "id": "nadar_rapido",
               "name": {
                 "value": "nadar rápido",
-                "synonyms": ["nadar a tope"]
+                "synonyms": [
+                  "nadar a tope"
+                ]
               }
             },
             {
@@ -207,28 +262,36 @@
               "id": "reducir_nivel_busqueda",
               "name": {
                 "value": "reducir el nivel de búsqueda",
-                "synonyms": ["reducir nivel de búsqueda"]
+                "synonyms": [
+                  "reducir nivel de búsqueda"
+                ]
               }
             },
             {
               "id": "aumentar_nivel_busqueda",
               "name": {
                 "value": "aumentar el nivel de búsqueda",
-                "synonyms": ["aumentar nivel de búsqueda"]
+                "synonyms": [
+                  "aumentar nivel de búsqueda"
+                ]
               }
             },
             {
               "id": "aumentar_nivel_especial",
               "name": {
                 "value": "aumentar el nivel de especial",
-                "synonyms": ["aumentar nivel especial"]
+                "synonyms": [
+                  "aumentar nivel especial"
+                ]
               }
             },
             {
               "id": "apuntado_camara",
               "name": {
                 "value": "apuntado a cámara lenta",
-                "synonyms": ["apuntar a cámara lenta"]
+                "synonyms": [
+                  "apuntar a cámara lenta"
+                ]
               }
             },
             {
@@ -247,7 +310,9 @@
               "id": "modificar_clima",
               "name": {
                 "value": "modificar el clima",
-                "synonyms": ["modificar clima"]
+                "synonyms": [
+                  "modificar clima"
+                ]
               }
             },
             {
@@ -272,7 +337,47 @@
           "name": "LIST_OF_ITEMS"
         }
       ]
-    }
+    },
+    "dialog": {
+      "intents": [
+        {
+          "name": "CheatIntent",
+          "confirmationRequired": false,
+          "prompts": {},
+          "slots": [
+            {
+              "name": "Item",
+              "type": "LIST_OF_ITEMS",
+              "elicitationRequired": true,
+              "confirmationRequired": false,
+              "prompts": {
+                "elicitation": "Elicit.Slot.1370243849438.445037766551"
+              }
+            }
+          ]
+        }
+      ],
+      "delegationStrategy": "ALWAYS"
+    },
+    "prompts": [
+      {
+        "id": "Elicit.Slot.1370243849438.445037766551",
+        "variations": [
+          {
+            "type": "PlainText",
+            "value": "qué quieres conseguir"
+          },
+          {
+            "type": "PlainText",
+            "value": "qué truco te interesa"
+          },
+          {
+            "type": "PlainText",
+            "value": "qué truco quieres que te diga"
+          }
+        ]
+      }
+    ]
   },
-  "version": "6"
+  "version": "7"
 }
