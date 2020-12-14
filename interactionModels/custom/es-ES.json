@@ -63,182 +63,178 @@
           "values": [
             {
               "name": {
-                "value": "Avión de acrobacias"
+                "value": "avión de acrobacias",
+                "synonyms": ["mallard stunt plane", "stunt plane"]
               }
             },
             {
               "name": {
-                "value": "Avión fumigador"
+                "value": "avión fumigador",
+                "synonyms": ["duster", "duster plane"]
               }
             },
             {
               "name": {
-                "value": "Bicicleta"
+                "value": "bicicleta",
+                "synonyms": ["bmx", "bici"]
               }
             },
             {
               "name": {
-                "value": "BMX"
+                "value": "camión de la basura",
+                "synonyms": ["trashmaster"]
               }
             },
             {
               "name": {
-                "value": "Camión de la basura"
+                "value": "carrito de golf",
+                "synonyms": ["caddy"]
               }
             },
             {
               "name": {
-                "value": "Carrito de golf"
+                "value": "coche de carreras",
+                "synonyms": ["rapid gt"]
               }
             },
             {
               "name": {
-                "value": "Coche a prueba de balas"
+                "value": "coche deportivo",
+                "synonyms": ["deportivo", "plister comet"]
               }
             },
             {
               "name": {
-                "value": "Coche de carreras"
+                "value": "helicóptero",
+                "synonyms": ["helicóptero de combate", "buzzard"]
               }
             },
             {
               "name": {
-                "value": "Coche deportivo"
+                "value": "limusina"
               }
             },
             {
               "name": {
-                "value": "Helicóptero"
+                "value": "motocicleta de motocross",
+                "synonyms": ["moto de motocross", "motocross", "sánchez"]
               }
             },
             {
               "name": {
-                "value": "Hidroavión"
+                "value": "motocicleta",
+                "synonyms": ["moto", "pcj-600"]
               }
             },
             {
               "name": {
-                "value": "Limusina"
+                "value": "paracaídas"
               }
             },
             {
               "name": {
-                "value": "Moto"
+                "value": "salud al máximo",
+                "synonyms": ["salud al tope", "salud a tope"]
               }
             },
             {
               "name": {
-                "value": "Moto de motocross"
+                "value": "invencibilidad",
+                "synonyms": ["invencible"]
               }
             },
             {
               "name": {
-                "value": "Paracaídas"
+                "value": "balas de fuego"
               }
             },
             {
               "name": {
-                "value": "Submarino"
+                "value": "balas explosivas"
               }
             },
             {
               "name": {
-                "value": "Salud al máximo"
+                "value": "desbloquear todas las armas",
+                "synonyms": ["desbloquear armas"]
               }
             },
             {
               "name": {
-                "value": "Invencibilidad"
+                "value": "modo borracho",
+                "synonyms": ["borracho"]
               }
             },
             {
               "name": {
-                "value": "Invencible"
+                "value": "correr rápido",
+                "synonyms": ["correr a tope"]
               }
             },
             {
               "name": {
-                "value": "Balas de fuego"
+                "value": "nadar rápido",
+                "synonyms": ["nadar a tope"]
               }
             },
             {
               "name": {
-                "value": "Balas explosivas"
+                "value": "puñetazos explosivos"
               }
             },
             {
               "name": {
-                "value": "Desbloquear todas las armas"
+                "value": "reducir el nivel de búsqueda",
+                "synonyms": ["reducir nivel de búsqueda"]
               }
             },
             {
               "name": {
-                "value": "Modo borracho"
+                "value": "aumentar el nivel de búsqueda",
+                "synonyms": ["aumentar nivel de búsqueda"]
               }
             },
             {
               "name": {
-                "value": "Correr rápido"
+                "value": "aumentar el nivel de especial",
+                "synonyms": ["aumentar nivel de búsqueda"]
               }
             },
             {
               "name": {
-                "value": "Nadar rápido"
+                "value": "apuntado a cámara lenta",
+                "synonyms": ["apuntar a cámara lenta"]
               }
             },
             {
               "name": {
-                "value": "Puñetazos explosivos"
+                "value": "coches deslizables"
               }
             },
             {
               "name": {
-                "value": "Reducir nivel de búsqueda"
+                "value": "cámara lenta"
               }
             },
             {
               "name": {
-                "value": "Aumentar nivel de búsqueda"
+                "value": "modificar el clima",
+                "synonyms": ["modificar clima"]
               }
             },
             {
               "name": {
-                "value": "Aumentar nivel de especial"
+                "value": "super salto"
               }
             },
             {
               "name": {
-                "value": "Apuntado a cámara lenta"
+                "value": "caída libre"
               }
             },
             {
               "name": {
-                "value": "Coches deslizables"
-              }
-            },
-            {
-              "name": {
-                "value": "Cámara lenta"
-              }
-            },
-            {
-              "name": {
-                "value": "Modificar el clima"
-              }
-            },
-            {
-              "name": {
-                "value": "Super salto"
-              }
-            },
-            {
-              "name": {
-                "value": "Caída libre"
-              }
-            },
-            {
-              "name": {
-                "value": "Gravedad lunar"
+                "value": "gravedad lunar"
               }
             }
           ],
