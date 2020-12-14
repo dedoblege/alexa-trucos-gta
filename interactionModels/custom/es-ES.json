@@ -4,7 +4,7 @@
       "invocationName": "trucos g t a",
       "intents": [
         {
-          "name": "RecipeIntent",
+          "name": "CheatIntent",
           "slots": [
             {
               "name": "Item",
@@ -243,5 +243,5 @@
       ]
     }
   },
-  "version": "3"
+  "version": "5"
 }
