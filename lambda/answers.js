@@ -1,7 +1,7 @@
 module.exports = {
   ANSWERS_ES_ES: {
-    SKILL_NAME: "Trucos G.T.A",
-    WELCOME_MESSAGE: "Bienvenido a trucos G.T.A.; Qué truco quieres saber?",
+    SKILL_NAME: "Trucos G T A",
+    WELCOME_MESSAGE: "Bienvenido a trucos G T A.; Qué truco quieres saber?",
     WELCOME_REPROMPT:
       "Puedes pedirme trucos, como por ejemplo, dime truco para %s.",
     DISPLAY_CARD_TITLE: "%s  - Truco para %s.",
@@ -17,7 +17,7 @@ module.exports = {
       "Perdona, ahora mismo no conozco ese truco. ",
     CHEAT_NOT_FOUND_REPROMPT: "...Con qué más puedo ayudarte?",
     ALEXA_HELP:
-      "Puedes pedirme trucos de G.T.A! Qué truco quieres que te diga?",
+      "Puedes pedirme trucos de G T A! Qué truco quieres que te diga?",
     ALEXA_GOODBYE: "Hasta pronto!",
     ALEXA_FALLBACK:
       "Perdona, no sé que me estás pidiendo. Por favor, vuelve a intentarlo.",
