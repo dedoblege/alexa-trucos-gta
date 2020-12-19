@@ -1,5 +1,54 @@
 {
   "manifest": {
+    "publishingInformation": {
+      "locales": {
+        "es-ES": {
+          "summary": "Skill para obtener trucos para el juego GTA V versión PS4",
+          "examplePhrases": [
+            "Alexa abre trucos G.T.A.",
+            "truco bicicleta",
+            "ayuda"
+          ],
+          "keywords": [
+            "ps3",
+            "ps4",
+            "ps5",
+            "playstation",
+            "gta",
+            "\"grand",
+            "theft",
+            "auto\"",
+            "gtav",
+            "\"grand",
+            "theft",
+            "auto",
+            "5\"",
+            "cheat",
+            "cheats",
+            "truco",
+            "trucos"
+          ],
+          "name": "Trucos GTA",
+          "description": "Skill para obtener trucos para el juego GTA V. Compatible con PS3, PS4 y PS5",
+          "smallIconUri": "file://assets/images/es-ES_smallIconUri.png",
+          "largeIconUri": "file://assets/images/es-ES_largeIconUri.png"
+        }
+      },
+      "automaticDistribution": {
+        "sourceLocaleForLanguages": [
+          {
+            "sourceLocale": "es-ES",
+            "language": "es"
+          }
+        ],
+        "isActive": true
+      },
+      "isAvailableWorldwide": true,
+      "testingInstructions": "You can ask for GTA V cheats using phrases as \"truco bicicleta\", \"cómo conseguir una bicicleta\".",
+      "category": "GAME_INFO_AND_ACCESSORY",
+      "distributionMode": "PUBLIC",
+      "distributionCountries": []
+    },
     "apis": {
       "custom": {
         "endpoint": {
@@ -7,14 +56,14 @@
         },
         "interfaces": [],
         "regions": {
-          "NA": {
-            "endpoint": {
-              "uri": "arn:aws:lambda:us-east-1:019108230846:function:a437c7f8-45ed-4740-a348-c7a79833a2d6:Release_0"
-            }
-          },
           "EU": {
             "endpoint": {
               "uri": "arn:aws:lambda:eu-west-1:019108230846:function:a437c7f8-45ed-4740-a348-c7a79833a2d6:Release_0"
+            }
+          },
+          "NA": {
+            "endpoint": {
+              "uri": "arn:aws:lambda:us-east-1:019108230846:function:a437c7f8-45ed-4740-a348-c7a79833a2d6:Release_0"
             }
           },
           "FE": {
@@ -26,24 +75,15 @@
       }
     },
     "manifestVersion": "1.0",
-    "publishingInformation": {
-      "category": "KNOWLEDGE_AND_TRIVIA",
-      "distributionCountries": [],
-      "isAvailableWorldwide": true,
+    "privacyAndCompliance": {
+      "allowsPurchases": false,
       "locales": {
-        "es-ES": {
-          "description": "Skill para obtener trucos para el juego GTA V versión PS4",
-          "examplePhrases": [
-            "Alexa abre trucos G.T.A.",
-            "trucos G.T.A.",
-            "ayuda"
-          ],
-          "keywords": [],
-          "name": "Trucos GTA",
-          "summary": "Skill para obtener trucos para el juego GTA V versión PS4"
-        }
+        "es-ES": {}
       },
-      "testingInstructions": "Sample Testing Instructions."
+      "containsAds": false,
+      "isExportCompliant": true,
+      "isChildDirected": false,
+      "usesPersonalInfo": false
     }
   }
 }
