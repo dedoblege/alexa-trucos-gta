@@ -51,6 +51,10 @@ const CheatIntentHandler = {
         ? cheatId
         : constants.ANSWERS.ALEXA_FALLBACK;
 
+      const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+      sessionAttributes.lastResponse = speakOutput;
+      handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
+
       return handlerInput.responseBuilder
         .speak(speakOutput)
         .reprompt(speakOutput)
@@ -82,6 +86,26 @@ const HelpIntentHandler = {
   },
   handle(handlerInput) {
     const speakOutput = constants.ANSWERS.ALEXA_HELP;
+
+    return handlerInput.responseBuilder
+      .speak(speakOutput)
+      .reprompt(speakOutput)
+      .getResponse();
+  },
+};
+
+const RepeatIntentHandler = {
+  canHandle(handlerInput) {
+    return (
+      Alexa.getRequestType(handlerInput.requestEnvelope) === "IntentRequest" &&
+      Alexa.getIntentName(handlerInput.requestEnvelope) ===
+        "AMAZON.RepeatIntent"
+    );
+  },
+  handle(handlerInput) {
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+    const { lastResponse } = sessionAttributes;
+    const speakOutput = lastResponse;
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
@@ -161,8 +185,8 @@ const IntentReflectorHandler = {
   },
   handle(handlerInput) {
     const intentName = Alexa.getIntentName(handlerInput.requestEnvelope);
-    const speakOutput = `You just triggered ${intentName}`;
-
+    let speakOutput = constants.ANSWERS.ALEXA_REFLECTOR;
+    speakOutput += intentName;
     return (
       handlerInput.responseBuilder
         .speak(speakOutput)
@@ -181,8 +205,7 @@ const ErrorHandler = {
     return true;
   },
   handle(handlerInput, error) {
-    const speakOutput =
-      "Sorry, I had trouble doing what you asked. Please try again.";
+    const speakOutput = constants.ANSWERS.ALEXA_ERROR;
     console.log(`~~~~ Error handled: ${JSON.stringify(error)}`);
 
     return handlerInput.responseBuilder
@@ -202,6 +225,7 @@ exports.handler = Alexa.SkillBuilders.custom()
     LaunchRequestHandler,
     CheatIntentHandler,
     HelpIntentHandler,
+    RepeatIntentHandler,
     CancelAndStopIntentHandler,
     FallbackIntentHandler,
     SessionEndedRequestHandler,

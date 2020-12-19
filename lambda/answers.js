@@ -20,11 +20,16 @@ module.exports = {
       "Puedes pedirme trucos de G.T.A! Qué truco quieres que te diga?",
     ALEXA_GOODBYE: "Hasta pronto!",
     ALEXA_FALLBACK:
-      "Perdona, no sé que me estás pidiendo. Vuelve a intentarlo, por favor.",
+      "Perdona, no sé que me estás pidiendo. Por favor, vuelve a intentarlo.",
+    ALEXA_ERROR:
+      "Perdona, ha ocurrido un error procesando tu petición. Por favor, vuelve a intentarlo.",
+    ALEXA_REFLECTOR: "Acabas de invocar",
   },
   ANSWERS_EN_US: {
     ALEXA_HELP: "You can say hello to me! How can I help?",
     ALEXA_GOODBYE: "Goodbye!",
     ALEXA_FALLBACK: "Sorry, I don't know about that. Please try again.",
+    ALEXA_ERROR: "Sorry, I had trouble doing what you asked. Please try again.",
+    ALEXA_REFLECTOR: "You just triggered",
   },
 };
