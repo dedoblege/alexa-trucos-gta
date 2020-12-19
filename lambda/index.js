@@ -16,6 +16,10 @@ const LaunchRequestHandler = {
   handle(handlerInput) {
     const speakOutput = constants.ANSWERS.WELCOME_MESSAGE;
 
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+    sessionAttributes.lastResponse = speakOutput;
+    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
+
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(speakOutput)
@@ -57,7 +61,7 @@ const CheatIntentHandler = {
 
       return handlerInput.responseBuilder
         .speak(speakOutput)
-        .reprompt(speakOutput)
+        .reprompt(constants.ANSWERS.CHEAT_NOT_FOUND_REPROMPT)
         .getResponse();
     }
 
@@ -86,6 +90,10 @@ const HelpIntentHandler = {
   },
   handle(handlerInput) {
     const speakOutput = constants.ANSWERS.ALEXA_HELP;
+
+    const sessionAttributes = handlerInput.attributesManager.getSessionAttributes();
+    sessionAttributes.lastResponse = speakOutput;
+    handlerInput.attributesManager.setSessionAttributes(sessionAttributes);
 
     return handlerInput.responseBuilder
       .speak(speakOutput)
