@@ -1,7 +1,7 @@
 {
   "interactionModel": {
     "languageModel": {
-      "invocationName": "trucos g t a",
+      "invocationName": "trucos g. t. a.",
       "intents": [
         {
           "name": "CheatIntent",
@@ -379,5 +379,5 @@
       }
     ]
   },
-  "version": "7"
+  "version": "8"
 }
