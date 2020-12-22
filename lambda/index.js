@@ -77,6 +77,7 @@ const CheatIntentHandler = {
     return handlerInput.responseBuilder
       .speak(speakOutput)
       .reprompt(repromptSpeech)
+      .withShouldEndSession(true)
       .getResponse();
   },
 };
